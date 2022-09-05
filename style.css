@@ -96,5 +96,13 @@ p{
     .half-width2{
         width: 40%;
         float: left;
-        padding-inline: 60px;
+        
+    
+    
     }
+    .single-experience{
+     box-shadow: 10px 10px 40px gray;
+     height: 80%;
+     border-radius: 5px;
+    }
+
