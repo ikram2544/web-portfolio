@@ -81,6 +81,7 @@ h1 {
 }
 .dream-p{
     margin-bottom: 40px;
+    width: 400px;
 }
 .info{
     margin-bottom: 40px;
@@ -91,18 +92,46 @@ p{
 .big-dream{
     background-image: url(images/dream-bg.png) ;
     background-repeat: no-repeat;
-    background-position: right ;}
-
-    .half-width2{
+    background-position: right ;
+}
+.half-width2{
         width: 40%;
         float: left;
-        
-    
-    
-    }
-    .single-experience{
+}
+.single-experience{
      box-shadow: 10px 10px 40px gray;
-     height: 80%;
+     height: 300px;
      border-radius: 5px;
-    }
+     padding: 20px;
+}
+.experience-area{
+    padding: 50px 80px;
+}
+.experiece-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.half-width2{
 
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #7C31D7, #FF257A);
+    border-image-slice: 1;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    background-position-x: -0.5%;
+}    
+.footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: top 20px;
+    background-image: linear-gradient(80deg, #7C31D7,tomato,lightsalmon, #FF257A, lightsalmon);
+}
